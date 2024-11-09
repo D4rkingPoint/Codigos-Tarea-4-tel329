@@ -1,6 +1,6 @@
 'use strict';
 var EventHubClient = require('azure-event-hubs').Client;
-var connectionString = 'Endpoint=sb://<NAMESPACE>.servicebus.windows.net/;SharedAccessKeyName=<KeyName>;SharedAccessKey=<YourAccessKey>;EntityPath=<EventHubName>';
+var connectionString = 'Endpoint=sb://ihsuprodblres039dednamespace.servicebus.windows.net/;SharedAccessKeyName=iothubowner;SharedAccessKey=HqxyQdsaMk2C2YrgPv1ZhyQNFDrECa52jAIoTJbSQyM=;EntityPath=iothub-ehub-tarea4-62930081-1c740b82b8';
 
 
 var printError = function(err){
