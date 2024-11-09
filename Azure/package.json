@@ -1,0 +1,18 @@
+{
+  "name": "azure-contiki-ng",
+  "version": "1.0.0",
+  "description": "demo for contiki-ng and azure iot",
+  "main": "middleware-azure.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Agus Kurniawan",
+  "dependencies": {
+    "azure-event-hubs": "^0.0.8",
+    "azure-iot-device": "^1.18.3",
+    "azure-iot-device-mqtt": "^1.16.3",
+    "express": "^4.21.1",
+    "request": "^2.88.2"
+  },
+  "license": "ISC"
+}
